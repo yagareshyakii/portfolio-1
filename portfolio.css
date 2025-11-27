@@ -1,0 +1,1607 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+ nav {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    left:50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    top: 15px;
+    box-shadow: rgba(255, 255, 255, 0.19) 0px 10px 20px, rgba(255, 255, 255, 0.23) 0px 6px 6px;
+    z-index: 999;
+} 
+nav h1 {
+    font-size: 45px;
+    color: rgb(17, 234, 234);
+}
+nav .about {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 30px;
+    transition: all 1s;
+}
+nav .about a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    /* background-color: wheat; */
+    padding: 5px;
+    position: relative;
+}
+input:checked~.about{
+    left:0%;
+}
+input {
+    display: none;
+}
+label{
+    display: none;
+}
+i{
+    color: black;
+}
+.logo{
+    height: 80px;
+    width: 150px;
+    background-color: wheat;
+}
+/* ******************contantpage********************* */
+.contantpage{
+    width: 100%;
+    height:100vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+.flexbiv{
+    width: 80%;
+    min-height: 450px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.im-webdev{
+    width: 48%;
+    height: 380px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagebox{
+    width: 48%;
+    height: 380px;
+    /* background-color: yellowgreen; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.im-designerbox{
+    width: 80%;
+    height: 140px;
+    /* background-color: violet; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.im-designerbox span{
+    color: rgb(17, 234, 234);
+}
+.inbox-educcation{
+    width:80%;
+    height:140px;
+        /* background-color: antiquewhite; */
+    background-color: black;
+}
+.im-designerbox h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 50px;
+    animation-name: webdev;
+    animation-duration: 2s;
+    animation-timing-function: initial;
+    animation-iteration-count: initial;
+    animation-direction: alternate;
+}
+    @keyframes webdev{
+        from{
+            transform: translateX(-100px);
+        }
+        to{
+            transform: translateX(0px);
+        }
+    }
+.img-round1{
+    width: 360px;
+    height: 360px;
+    background-color: rgb(45, 45, 45);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-round2{
+    width: 260px;
+    height: 260px;
+    background-color: gray;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-round3{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-round3 img{
+    width: 270px;
+    height: 220px;
+    margin-top: -50px;
+}
+/* ****************Aboutpage****************** */
+.aboutpage{
+    width: 100%;
+    height: 80vh;
+    /* background-color: blueviolet; */
+    background-color: black;
+    /* background-color: black; */
+}
+.aboutbox{
+    width: 100px;
+    height: 50px;
+    /* background-color: antiquewhite; */
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.aboutbox a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(17, 234, 234);
+}
+.borderbox{
+    width:100%;
+    height: 5px;
+    /* background-color: blue; */
+    background-color: black;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5px;
+}
+.bor{
+    width: 100%;
+    height: 4px;
+    /* background-color: antiquewhite; */
+    background-color: black;
+    border-radius: 2px;
+}
+.aborder{
+    width: 30%;
+}
+.bborder{
+    width: 20%;
+}
+.cborder{
+    width: 15%;
+}
+.dborder{
+    width: 10%;
+}
+.eborder{
+    width: 8%;
+}
+.bgflexbox{
+    width: 80%;
+    height: 420px;
+    /* background-color: antiquewhite; */
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.page2imagebox{
+    width: 30%;
+    height: 370px;
+    /* background-color: rgb(43, 226, 104); */
+    background-color: black;
+    position: relative;
+}
+.page2namebox{
+    width:60%;
+    height: 370px;
+    /* background-color: rgb(7, 61, 43); */
+}
+.leftimgbox{
+    width: 130px;
+    height: 130px;
+    /* background-color: rgb(8, 52, 52); */
+    border-left: 15px solid rgb(17, 234, 234);
+    border-top: 15px solid rgb(17, 234, 234);
+}
+.rightimgbox{
+    width: 90%;
+    height: 330px;
+    /* background-color: blue; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-right: 15px solid rgb(17, 234, 234);
+    border-bottom: 15px solid rgb(17, 234, 234);
+}
+.centerimgbox{
+    width: 90%;
+    height: 340px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:5%;
+    left: 6%;
+}
+.centerimgbox img{
+    width: 100%;
+    height: 100%;
+}
+.yagaresh{
+    width: 380px;
+    height: 100px;
+    /* background-color: blueviolet; */
+    background-color: black;
+    text-align: center;
+    position: relative;
+    animation-name: yagaresh;
+    animation-duration: 1s;
+    animation-timing-function: initial;
+    animation-iteration-count: initial;
+}
+@keyframes yagaresh{
+        from{
+            transform: translateY(100px);
+        }
+        to{
+            transform: translateY(0px);
+        }
+    }
+.yagaresh h1{
+    font-size: 80px;
+    color: rgb(17, 234, 234);
+    text-shadow: 0px 0px 10px black;
+}
+.yagaresh p{
+    position: absolute;
+    top:50%;
+    left:25%;
+    color: white;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.Aprofilebox{
+    width: 90%;
+    height: 130px;
+    color: white;
+    /* background-color: lightcoral; */
+    background-color: black;
+}
+.downloadbutton button{
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.downloadicon{
+    color: rgb(0, 255, 255);
+}
+/* ****************Skillspage****************** */
+.skillspage{
+    width: 100%;
+    height: 100vh;
+    /* background-color: darkblue; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skillsbox{
+    width: 80%;
+    min-height: 700px;
+    /* background-color: rgb(17, 227, 91); */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.skillsbox h2{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.skillcenterbox{
+    width: 160px;
+    height: 70px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.skillcenterbox h1{
+    font-size: 60px;
+    color: rgb(0, 255, 255);
+}
+.skibox{
+    width: 30%;
+    height: 100px;
+    /* background-color: brown; */
+    text-align: center;
+}
+.round{
+    width:50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    margin-top: -10px;
+}
+.round5{
+    margin-top: -37%;
+    margin-left: 280px;
+}
+.round6{
+    margin-top: -47%;
+    margin-left: 30px;
+}
+.line1{
+    width: 69%;
+    height: 60%;
+    position: absolute;
+    right: 58%;
+    top: 140px;
+}
+.linehtml{
+    width:69%;
+    height: 60%;
+    position: absolute;
+    left: 55%;
+    top: 140px;
+}
+.line2{
+    width: 11%;
+    height: 60%;
+    position: absolute;
+    right: -5px;
+    top: -46px;
+}
+.line4{
+    width: 11%;
+    height: 60%;
+    position: absolute;
+    left: -16px;
+    top: -46px;
+}
+.line5{
+    width: 69%;
+    height: 5%;
+    position: absolute;
+    bottom: -30%;
+    left: -27%;
+}
+.line6{
+    width:11%;
+    height: 65%;
+    position: absolute;
+    top:80px;
+    right: -3%;
+}
+.line7{
+    width: 69%;
+    height: 7%;
+    position: absolute;
+    left: 55%;
+    top:130px;
+}
+.line8{
+    width:12%;
+    height: 72%;
+    position: absolute;
+    top: 82px;
+    left: -15px;
+}
+.line9{
+    width: 49%;
+    height: 80%;
+    position: absolute;
+    left: -41%;
+    top: -70px;
+}
+.line10{
+    width: 8%;
+    height: 80%;
+    position: absolute;
+    bottom: -76px;
+    right: 29%;
+}
+.line11{
+    width: 48%;
+    height: 75%;
+    position: absolute;
+    right: -40%;
+    bottom: 95px;
+}
+.line12{
+    width: 8%;
+    height: 80%;
+    position: absolute;
+    bottom: -76px;
+    left: 27%;
+}
+.html{
+    position: absolute;
+    top:10%;
+    left: 5%;
+}
+.css{
+    position: absolute;
+    top:10%;
+    right: 5%;
+}
+.jsscript{
+    position: absolute;
+    top:45%;
+    left: 5%;
+}
+.nodejs{
+    position: absolute;
+    top:45%;
+    right: 5%;
+}
+.mongodb{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.bootstrap{
+    position: absolute;
+    bottom:10%;
+    right: 5%;
+}
+/* *************projectpage***************** */
+.projectpage{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: gray; */
+    background-color: black;
+}
+.borderbox1{
+    width:100%;
+    height: 5px;
+    /* background-color: blue; */
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -5px;
+}
+.aborderp{
+    width: 30%;
+}
+.bborderp{
+    width: 25%;
+}
+.cborderp{
+    width: 20%;
+}
+.dborderp{
+    width: 15%;
+}
+.eborderp{
+    width: 7%;
+}
+.projnamebox p{
+    margin: 30px 0px 30px 0px;
+}
+.bor{
+    width: 110px;
+    height: 4px;
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+.aboutboxp{
+    width: 130px;
+    height: 50px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.aboutboxp a{
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: rgb(17, 234, 234);
+}
+.projectpageflexbox{
+    width: 70%;
+    min-height: 370px;
+    /* background-color: skyblue; */
+    background-color: black;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cubebox{
+    width: 420px;
+    height: 360px;
+    margin-top: 50px;
+    /* background-color: rgb(226, 234, 8); */
+    background-color: black;
+    margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg);
+}
+.box1{
+    width:60%;
+    height: 34px;
+    background-image: linear-gradient(to right, rgb(8, 152, 174), white);
+    position: absolute;
+    transform: skewX(62deg);
+    position: absolute;
+    left: 28px;
+    top: 4px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.leftbox{
+    width: 17%;
+    height: 265px;
+    position: absolute;
+    top:22px;
+    background-image:linear-gradient(rgb(7, 222, 255), white);
+    transform: skewY(27deg);
+}
+.projectbox{
+    width: 57%;
+    height: 264px;
+    background-image: linear-gradient(to bottom, rgb(7, 222, 255), rgb(162, 237, 234));
+    position: absolute;
+    right: 110px;
+    bottom: 58px;
+    transform: skewY(-1deg);
+}
+.projectbox img, .leftbox img{
+    width: 100%;
+    height: 45%;
+}
+.projnamebox{
+    width: 55%;
+    height: 260px;
+    /* background-color: blueviolet; */
+    background-color: black;
+    margin-top: -100px;
+}
+.projnamebox button{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+/* ***************educationpage*************** */
+.educationpage{
+    width: 100%;
+    min-height: 50vh;
+    /* background-color: brown; */
+    background-color: black;
+}
+.educationbox{
+    width: 180px;
+}
+.educationflexbox{
+    width: 90%;
+    height: 300px;
+    /* background-color: aliceblue; */
+    background-color: black;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.tenth12ugbox, .pgbox{
+    width: 550px;
+    height: 280px;
+    /* background-color: rgb(74, 74, 10); */
+    background-color: black;
+}
+.pgbox{
+    /* background-color: chartreuse; */
+    background-color: black;
+}
+.tenth{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(0, 247, 255);
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.ten70{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.percentagebox, .p12{
+    width: 70%;
+    height: 25px;
+    background-color: red;
+    border-radius: 20px;
+}
+.p12{
+    width: 60%;
+}
+.pug{
+    width: 85%;
+}
+.ppg{
+    width: 90%;
+}
+/* *****************letcontactpage************* */
+.letcontactpage{
+    width: 100%;
+    min-height: 500px;
+    /* background-color: blue; */
+    background-color: black;
+}
+.letcontactpagebgdiv{
+    width: 90%;
+    min-height: 450px;
+    /* background-color: antiquewhite; */
+    background-color: black;
+    margin: auto;
+}
+.letcontactpagebgdiv span{
+    color: rgb(0, 255, 255);
+}
+.letcontactpagebgdiv h1{
+    padding-left: 5%;
+}
+.lastflexbox{
+    width: 100%;
+    height: 350px;
+    /* background-color: rgba(225, 111, 4, 0.722); */
+    background-color: black;
+    display: flex;
+    padding-left: 5%;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.lastaboutbox{
+    width: 400px;
+    height: 330px;
+    /* background-color: rgb(143, 4, 250); */
+    background-color: black;
+}
+.lastaboutbox p{
+    margin: 20px 0px 20px 0px;
+}
+.lastcontactbox p{
+    margin: 20px 0px 20px 0px;
+}
+.navigationbox{
+    width: 350px;
+    height: 330px;
+    /* background-color: rgb(23, 72, 72); */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.lastcontactbox{
+    width: 350px;
+    height: 330px;
+    /* background-color: cadetblue; */
+    background-color: black;
+}
+.uplogobox{
+    width: 50px;
+    height: 330px;
+    /* background-color: yellow; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+.lasticonbox{
+    width: 65%;
+    height: 80px;
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconfs{
+    font-size: 35px;
+    color: rgb(0, 255, 255);
+}
+.navigationbox h4{
+    color: rgb(0, 255, 255);
+}
+.navigationbox a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+} 
+.lastcontactbox h4{
+    color: rgb(0, 255, 255);
+}
+.uparrow{
+    font-size: 50px;
+    color: white;
+}
+/* ***************************mediaquorie******************************/
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    nav .about {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        left: 110%; 
+        top:88px;
+        width: 100%;
+        height:80vh;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 40px;
+    }
+    .contantpage{
+        height: 80vh;
+    }
+    i{
+        color: white;
+    }
+    nav label{
+        display: block;
+    }
+    .yagaresh{
+        width: 80px;
+        height: 100px;
+    }
+    .yagaresh h1{
+        font-size: 30px;
+    }
+    .line{
+        display: none;
+    }
+    .round{
+        margin-left: 0px;
+    }
+    .img-round1{
+        width: 200px;
+        height: 150px;
+    }
+    .img-round2{
+        width: 130px;
+        height: 130px;
+    }
+    .img-round3{
+        width: 90px;
+        height: 90px;
+    }
+    .img-round3 img{
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+    }
+    .im-designerbox h1{
+        font-size: 25px;
+    }
+    .imagebox{
+        width: 60%;
+        height: 150px;
+        margin-top: -550px;
+    }
+    .im-webdev{
+        width: 100%;
+        min-height: 250px;
+    }
+    .flexbiv{
+        top:20%;
+        width: 90%;
+    }
+    .im-designerbox{
+        width: 80%;
+        min-height: 100px;
+        margin-top: -1px;
+    }
+    .inbox-educcation{
+        width:100%;
+        min-height:180px;
+        margin-top: 150px;
+    }
+    .inbox-educcation p{
+        margin-top: 20px;
+    }
+    .aboutpage{
+        width: 100%;
+        height: 80vh;
+    }
+    .bgflexbox{
+        width: 100%;
+        height: 420px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .page2imagebox{
+        display: none;
+    }
+    .page2namebox{
+        width:100%;
+        height: 300px;
+    }
+    .yagaresh{
+        width: 320px;
+        height: 100px;
+    }
+    .yagaresh h1{
+        font-size: 65px;
+        margin-top: -40px;
+    }   
+    .yagaresh p{
+        top:40%;
+        left:22%;
+        font-size: 15px;
+    }
+    .Aprofilebox{
+        width: 90%;
+        height: 160px;
+        margin: auto;
+    }
+    .downloadbutton button{
+        margin-left: 22%;
+    }
+    .skillsbox{
+        width: 100%;
+        height: 820px;
+    }
+    .skillcenterbox{
+        width: 160px;
+        height: 70px;
+        /* background-color: blueviolet; */
+        position: absolute;
+        top: 0px;
+    }
+    .skillcenterbox h1{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .skibox{
+        width: 85%;
+        height: 110px;
+        /* background-color: brown; */
+        text-align: left;
+        margin-left: 28px;
+    }
+    .skibox span{
+        border-bottom: 3px solid gold;
+    }
+    .round{
+        width:35px;
+        height: 35px;
+        /* background-color: rgb(0, 0, 0);
+        border: 2px solid goldenrod;
+        border-radius: 50%; */
+        margin-top: -115px;
+        margin-left: -40px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .html{
+        position: absolute;
+        top:10%;
+        left: 5%;
+    }
+    .css{
+        position: absolute;
+        top:25%;
+        left: 5%;
+    }
+    .jsscript{
+        position: absolute;
+        top:40%;
+        left: 5%;
+    }
+    .nodejs{
+        position: absolute;
+        top:55%;
+        left: 5%;
+    }
+    .mongodb{
+        position: absolute;
+        bottom: 17%;
+        left: 5%;
+    }
+    .bootstrap{
+        position: absolute;
+        bottom:2%;
+        left: 5%;
+    }
+    .skillsbox h3{
+        font-size: 15px;
+        padding-top: 5px;
+    }
+    .projectpage{
+        width: 100%;
+        min-height: 100vh;
+        margin-top: 80px;
+    }
+    .projectpageflexbox{
+        width:100%;
+        min-height: 370px;
+        /* background-color: skyblue; */
+    background-color: black;
+        margin: auto;
+        margin-top: 0px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly; */
+    }
+.cubebox{
+    width: 320px;
+    height: 320px;
+    margin-left: 8%;
+    margin-top: 70px;
+    /* background-color: rgb(226, 234, 8); */
+    /* background-color: black; */
+    /* margin: auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg); */
+}
+.box1{
+    width:60%;
+    height: 24px;
+    /* backgund-image: linear-gradient(to right, rgb(14, 35, 39), white); */
+    /* position: absolute;
+    transform: skewX(62deg);
+    position: absolute; */
+    left: 7%;
+    top: 10px;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 1px;
+}
+.leftbox{
+    width: 17%;
+    height: 265px;
+    /* position: absolute; */
+    top:22px;
+    /* background-image:linear-gradient(rgb(7, 222, 255), white);
+    transform: skewY(27deg); */
+}
+.projectbox{
+    width: 57%;
+    height: 264px;
+    /* background-image: linear-gradient(to bottom, rgb(0, 255, 238), rgb(162, 237, 234));
+    position: absolute; */
+    right: 26%;
+    bottom: 21px;
+    /* transform: skewY(-1deg); */
+}
+.projnamebox{
+    width: 90%;
+    height: 370px;
+    /* background-color: black; */
+    margin-top: 5px;
+}
+.projnamebox button{
+    width: 150px;
+    height: 40px;
+    /* background-color: black;
+    border-radius: 10px;
+    border: 2px solid white; */
+    margin-left: 23%;
+}
+.lastaboutbox{
+    width: 400px;
+    height: 230px;
+    /* background-color: rgb(143, 4, 250); */
+}
+.lastaboutbox p{
+    margin: 20px 0px 20px 0px;
+}
+.lastcontactbox p{
+    margin: 20px 0px 20px 0px;
+}
+.navigationbox{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+}
+.lasticonbox{
+    width: 100%;
+}
+.tenth12ugbox{
+    width: 550px;
+    height: 210px;
+    margin-bottom: 50px;
+    /* background-color: rgb(74, 74, 10); */
+}
+.pgbox{
+    height: 50px;
+    margin-top: 23px;
+}
+.percentagebox, .p12{
+    width: 70%;
+    height: 28px;
+    border-radius: 20px;
+}
+.p12{
+    width: 50%;
+}
+.pug{
+    width: 80%;
+}
+.ppg{
+    width: 70%;
+}
+.navigationbox{
+    width: 100%;
+    height: 260px;
+    margin-top: 50px;
+    /* background-color: rgb(23, 72, 72); */
+    /* display: flex;
+    flex-direction: column; */
+}
+.letcontactpage h1{
+    margin-top: 80px;
+}
+.lastcontactbox{
+    width: 100%;
+    height: 200px;
+    /* background-color: cadetblue; */
+}
+.uplogobox{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    /* display: flex;
+    justify-content: center;
+    align-items: flex-end; */
+    padding-bottom: 25px;
+}
+.letcontactpage{
+    min-height: 950px;
+}
+}
+/* .lasticonbox{
+    width: 100%;
+    height: 80px;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+@media only screen and (min-width:600px) and (max-width:1100px){
+    nav .about {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        left: 110%; 
+        top:88px;
+        width: 100%;
+        height:80vh;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 40px;
+    }
+    .contantpage{
+        height: 85vh;
+    }
+    nav label{
+        display: block;
+    }
+    .flexbiv{
+        width: 90%;
+    }
+    i{
+        color: white;
+    }
+    .im-webdev{
+        width: 50%;
+        height: 380px;
+    }   
+    .imagebox{
+        width: 50%;
+        height: 380px;
+    }  
+    .img-round1{
+        width: 340px;
+        height: 340px;
+    }
+    .img-round2{
+        width: 240px;
+        height: 240px;
+    }
+    .img-round3{
+        width: 140px;
+        height: 140px;
+    }
+    .img-round3 img{
+        width: 250px;
+        height: 200px;
+        margin-top: -50px;
+    }
+    .bgflexbox{
+        width: 95%;
+        height: 420px;
+    }
+    .page2imagebox{
+        width: 35%;
+        height: 370px;
+        /* background-color: rgb(43, 226, 104); */
+        position: relative;
+    }
+    .page2namebox{
+        width:60%;
+        height: 370px;
+        /* background-color: rgb(7, 61, 43); */
+    }
+    .leftimgbox{
+        width: 130px;
+        height: 130px;
+        /* background-color: rgb(8, 52, 52); */
+        border-left: 15px solid rgb(17, 234, 234);
+        border-top: 15px solid rgb(17, 234, 234);
+    }
+    .rightimgbox{
+        width: 80%;
+        height: 100px;
+        /* background-color: blue; */
+        position: absolute;
+        bottom: 70px;
+        right: 0px;
+        border-right: 15px solid rgb(17, 234, 234);
+        border-bottom: 15px solid rgb(17, 234, 234);
+    }
+    .centerimgbox{
+        width: 86%;
+        height: 250px;
+        background-color: pink;
+        position: absolute;
+        top:5%;
+        left: 6%;
+}
+.centerimgbox img{
+    width: 100%;
+    height: 100%;
+}
+.yagaresh{
+    width: 380px;
+    height: 100px;
+    /* background-color: blueviolet; */
+    text-align: center;
+    position: relative;
+}
+.yagaresh h1{
+    font-size: 80px;
+    color: rgb(17, 234, 234);
+    text-shadow: 0px 0px 10px black;
+}
+.yagaresh p{
+    position: absolute;
+    top:50%;
+    left:25%;
+    color: white;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.downloadicon{
+    color: rgb(0, 255, 255);
+}
+.skillsbox{
+    width: 100%;
+    min-height: 700px;
+    background-color: black;
+}
+.round{
+    width:40px;
+    height: 40px;
+    margin-left: 88px;
+    margin-top: -5%;
+}
+.round5{
+    margin-top: -65%;
+    margin-left: 200px;
+}
+.round6{
+    margin-top: -65%;
+    margin-left: -5px;
+}
+.skillcenterbox h1{
+    font-size: 30px;
+}
+.skillcenterbox{
+    height: 50px;
+}
+.line1{
+    width: 53%;
+    height: 70%;
+    right: 61%;
+}
+.linehtml{
+    width:54%;
+    height: 70%;
+}
+.line2{
+    height: 70%;
+}
+.line4{
+    height: 70%;
+}
+.line5{
+    width: 50%;
+    height: 5%;
+    left: -13%;
+    bottom: -40%;
+}
+.line6{
+    width:11%;
+    height: 95%;
+}
+.line7{
+    width: 54%;
+    height: 5%;
+}
+.line8{
+    width:12%;
+    height: 80%;
+}
+.line9{
+    width: 46%;
+    height: 60%;
+    left: -37%;
+}
+.line10{
+    width: 6%;
+    height: 95%;
+    bottom: -87px;
+    right: 30%;
+}
+.line11{
+    width: 45%;
+    height: 60%;
+    right: -41%;
+    bottom: 110px;
+}
+.line12{
+    width: 7%;
+    height: 90%;
+    position: absolute;
+    bottom: -85px;
+    left: 36%;
+}
+.projectpageflexbox{
+    width: 90%;
+}
+.projnamebox{
+    width: 100%;
+    height: 350px;
+    margin-top: 5px;
+}
+.educationbox{
+    margin-bottom: 20px;
+}
+.educationflexbox{
+    width: 100%;
+}
+.tenth12ugbox, .pgbox{
+    width: 90%;
+    height: 200px;
+}
+.pgbox{
+    /* background-color: chartreuse; */
+    height: 70px;
+    margin-top: 70px;
+}
+.tenth{
+    width: 100%;
+    height: 30px;
+}
+.percentagebox{
+    width: 70%;
+    height: 30px;
+}
+.p12{
+    width: 50%;
+}
+.pug{
+    width: 80%;
+}
+.letcontactpage{
+    min-height: 750px;
+}
+.letcontactpage h1{
+    margin-top: 80px;
+}
+.letcontactpagebgdiv{
+    width: 100%;
+    padding-left: 5%;
+}
+.lastaboutbox{
+    width: 100%;
+    height: 210px;
+    /* background-color: rgb(143, 4, 250); */
+}
+.navigationbox{
+    width: 50%;
+    height: 170px;
+}
+.lastcontactbox{
+    width: 50%;
+    height: 190px;
+    margin-top: 30px;
+    padding-left: 5%;
+}
+.uplogobox{
+    width: 200px;
+    height: 120px;
+    margin: auto;
+    margin-top: 20px;
+}
+}
+@media only screen and (min-width:1024px) and (max-width:1440px){
+    nav .about {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        left: 110%; 
+        top:88px;
+        width: 100%;
+        height:80vh;
+        flex-direction: column;
+        justify-content: start;
+        padding-top: 40px;
+    }
+.skillsbox{
+    width: 100%;
+    min-height: 700px;
+    background-color: rgb(0, 0, 0);
+}
+.round{
+    width:40px;
+    height: 40px;
+    margin-left: 130px;
+    margin-top: 10%;
+}
+.round5{
+    margin-top: -34%;
+    margin-left: 250px;
+}
+.round6{
+    margin-top: -35%;
+    margin-left:30px;
+}
+.line1{
+    width: 62%;
+}
+.linehtml{
+    width:64%;
+}
+.line2{
+    height: 90%;
+}
+.line4{
+    height: 90%;
+}
+.line5{
+    width: 66%;
+    left: -23%;
+}
+.line6{
+    width:10%;
+    height: 75%;
+    bottom: 43%;
+}
+.line7{
+    width: 64%;
+    height: 5%;
+}
+.line9{
+    width: 46%;
+    height: 64%;
+    left: -37%;
+}
+.line10{
+    right: 25%;
+}
+.line11{
+    height: 75%;
+    right: -40%;
+    bottom: 90px;
+}
+.line12{
+    width: 7%;
+    height: 100%;
+    bottom: -92px;
+    left: 30%;
+}
+.projectpageflexbox{
+    width: 75%;
+}
+.educationbox{
+    margin-bottom: 20px;
+}
+.educationflexbox{
+    width: 75%;
+}
+.tenth12ugbox, .pgbox{
+    width: 90%;
+}
+.p12{
+    width: 50%;
+}
+.pug{
+    width: 80%;
+}
+.ppg{
+    width: 70%;
+}
+.pgbox{
+    height: 70px;
+    /* background-color: yellowgreen; */
+    margin-top: 80px;
+}
+.percentagebox, .p12{
+    width:70%;
+}
+.letcontactpage h1{
+    padding-left: 5%;
+}
+.letcontactpage{
+    min-height: 650px;
+}
+.lastaboutbox{
+    width: 65%;
+}
+.navigationbox{
+    width: 50%;
+    height: 210px;
+    padding-left: 5%;
+}
+.lastcontactbox{
+    width: 50%;
+}
+.uplogobox{
+    margin-top: 30px;
+    margin: auto;
+    width: 50px;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width:1500px){
+    .skillsbox{
+        width: 70%;
+        min-height: 700px;
+        background-color: rgb(0, 0, 0);
+    }
+    .round{
+        width:40px;
+        height: 40px;
+        margin-left: 130px;
+        margin-top: 2%;
+    }
+    .round5{
+        margin-top: -49%;
+        margin-left: 250px;
+    }
+    .round6{
+        margin-top: -49%;
+        margin-left:30px;
+    }
+    .line1{
+        width: 64%;
+    }
+    i{
+        color: white;
+    }
+    .line12{
+        width: 7%;
+        height: 80%;
+        bottom: -82px;
+        left: 30%;
+    }
+    .line11{
+        height: 50%;
+        width: 45%;
+        right: -40%;
+        bottom: 115px;
+    }
+    .line6{
+        height: 68%;
+    }
+    .tenth12ugbox, .pgbox{
+        width: 80%;
+        height: 230px;
+    }
+    .p12{
+        width: 50%;
+}
+.pug{
+    width: 80%;
+}
+.ppg{
+    width: 70%;
+}
+.pgbox{
+    margin-top: 50px;
+}
+    .letcontactpage h1{
+        margin-top: 90px;
+    padding-left: 17%;
+    }
+    .lastaboutbox{
+        height: 200px;
+    margin-left: 13%;
+    }
+    .navigationbox{
+        width: 50%;
+        height: 150px;
+        margin-top: -180px;
+        padding-left: 13%;
+    }
+    .uplogobox{
+    width: 200px;
+    height: 90px;
+    margin: auto;
+    margin-top: -70px;
+}
+
+}
+
+
+    
